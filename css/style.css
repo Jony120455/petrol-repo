@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#header-main{
+    background-color: #282828;
+    width: 100%;
+    height: 51px;
+    position: relative;
+    border-bottom: 5px solid rgb(255, 217, 0);
+}
+.border{
+    position: absolute;
+    width: 3px;
+    height: 30px;
+    background-color: white;
+    top: 24px;
+    left: 375px;
+    transform: translate(-50%, -50%);
+    
+}
+.mail{
+    padding-top: 12px;
+    margin-right: 20px;
+    
+}
+.call{
+    margin-left: 20px;
+    padding-top: 12px;
+}
+.common{
+    margin-bottom: 0;
+}
+.social-icon{
+    margin-top: 10px;
+}
+.social-icon i{
+    margin-left: 10px;
+}
+
+
+/* nav style start  */
+.navbar{
+    background-color: red;
+}
+
+ .nav-i li a{
+        font-size: 16px;
+        font-weight: 600;
+        
+}
+.btn-1{
+    margin-left: 55px;
+}
+ .nav-item a {
+    margin-left: 55px;
+    
+ }
+
+/* nav style end */
+
+/* banner style start  */
+
+    #banner{
+        background-image: url(../images/banner.png);
+        width: 100%;
+        height: 783px;
+        background-repeat: no-repeat;  
+        background-position: 0% 0%;
+        background-size: 100% 100%;
+    }
+
+
+.banner-text{
+    padding-top: 262px;
+}
+.banner-dt{
+    width: 842px;
+}
+.banner-dt h1{
+    font-size: 60px;
+    ;
+}
+.learn{
+    padding: 13px 40px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.more{
+    padding-top: 31px;
+}
+
+/* banner style end */
+
+/* country style start  */
+
+#country{
+    padding-top: 78px;
+}
+.cun-dt h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.cun-p{
+    padding-left: 100px;
+    padding-top: 50px;
+    color: #6C6C6C;
+}
+
+/* country style end */
+
+/* card style start  */
+
+#card{
+    overflow: hidden;
+    margin-top: 100px;
+}
+
+/* card style end */
+
+/* service style  */
+#service{
+    overflow: hidden;
+    margin-top: 28px;
+}
+.service-dt{
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.dt-text{
+    width: 500px;
+}
+.dt-text h2{
+    font-size: 64px;
+    font-weight: 700;
+}
+.service-images{
+    width: 100%;
+    height: 200px;
+}
+.service-main-img{
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.service-img-dt{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+.div h4{
+    color: white;
+    font-size: 36;
+    font-weight: 700;
+}
+.serbtn{
+    margin-top: 15px;
+}
+/* service style end */
+
+/* learn style  */
+
+#learn{
+    width: 100%;
+    background-color: #F0F0F0;
+}
+.learn-t{
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.learn-text{
+    background-color: red;
+}
+.learn-text h4{
+    color: white;
+}
+.learn-img{
+    width: 100%;
+    height: 250px;
+}
+
+/* learn style end */
+
+/* com style start  */
+
+#companey{
+    padding-top: 100px;
+}
+
+/* com style end */
+
+/* blog style start  */
+#blog{
+    background-color: #F0F0F0;
+    width: 100%;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+}
+  
+  .content:hover .content-overlay{
+    opacity: 1;
+}
+  
+  .content-image{
+    width: 100%;
+}
+
+  .content-details {
+    position: absolute;
+    padding-left: 45px;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0; 
+    transform: translate(-50%, -50%);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  .content-details p{
+    color: #fff;
+    font-size: 0.8em;
+  }
+  
+  .fadeIn-bottom{
+    top: 80%;
+  }
+
+
+  .blog-btn button{
+    background: rgba(255, 255, 255, 0.5);
+    padding: 10px 22px;
+    border: none;
+    font-weight: 600;
+    color: white;
+  }
+
+
+/* blog style end */
+
+/* map section start  */
+
+#map img{
+    width: 100%;
+    height: 400px;
+}
+/* map section end */
+
+/* member section style  */
+
+#member{
+    width: 100%;
+    height: 100px;
+    background-color: red;
+    border-bottom: 4px solid rgb(255, 217, 0);
+}
+.member{
+    padding-top: 30px;
+}
+.member h3{
+    color: white;
+}
+.mem-btn button{
+    padding: 10px 20px;
+    border: none;
+    font-weight: 600;
+}
+/* member section style end */
+
+
+/* footer start  */
+
+#footer{
+    width: 100%;
+    height: 500px;
+    background-color: #1F1F1F;
+    padding-top: 100px;
+}
+.card-body h2{
+    color: white;
+}
+.ul li{
+    list-style: none;
+    padding: 8px 0;
+}
+.ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 0;
+}
+.footer-fu{
+    width: 100%;
+    height: 50px;
+    background-color: 
+    #282828;
+}
+
+/* footer end */
+
+
+
+  
+  
+  
+  
+ 
+
+
+
+@media (max-width: 575.98px) { 
+    .banner-dt{
+        width: 100%;
+        text-align: center;
+    }
+    .more{
+        text-align: center;
+    }
+    .banner-dt h1{
+        font-size: 18px;
+        ;
+    }
+    .cun-dt h2{
+        text-align: center;
+        font-size: 30px;
+       
+        
+    }
+    .cun-p{
+        padding-left: 0;
+        padding: 10px;
+        text-align: center;
+        
+    }
+    .h h3{
+        font-size: 16px;
+    }
+    .row-1{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+ }
+ 
+@media (max-width: 767.98px) { 
+
+    .banner-dt{
+        width: 100%;
+        text-align: center;
+    }
+    .more{
+        text-align: center;
+    }
+    .banner-dt h1{
+        font-size: 20px;
+        ;
+    }
+    .cun-dt h2{
+       
+        text-align: center;
+        font-size: 30px;
+    }
+    .cun-p{
+        padding-left: 0;
+        padding: 10px;
+        text-align: center;
+        
+    }
+ }
+
+
+@media (max-width: 991.98px) { 
+    .banner-dt{
+        width: 100%;
+    }
+    .banner-dt h1{
+        font-size: 40px;
+        ;
+    }
+    .cun-dt h2{
+        
+        font-size: 40px;
+    }
+    .cun-p{
+        padding-left: 0;
+        padding: 10px;
+        text-align: center;
+        
+    }
+ }
+
+
+@media (max-width: 1199.98px) { 
+
+
+
+ }
+
+
+@media (max-width: 1399.98px) {  }
